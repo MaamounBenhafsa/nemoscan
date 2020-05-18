@@ -14,14 +14,14 @@ class nemoscan():
         Simple Script That Will Help You To Get Information About Your Target Like The Online Nmap (Fast Nmap ) This Nmap Will Not Work With Local Ip Adresses
         nemoscan()
         fast online scaning with nmap:
-        nemoscan.nmap("Adress IP Or Domain To Scan")      
+        nemoscan().nmap("Adress IP Or Domain To Scan")      
         geoip phone number:
-        nemoscan.geoip("Adress IP Or Domain To Make geoIP")  
-        nemoscan.geoip("google.com") 
-        nemoscan.dnslookup("facebook.com")
-        nemoscan.whois("instagram.com")
-        nemoscan.reverse_ip_lookup("algerietelecom.dz")
-        nemoscan.fuzz("websiteHost","Default Wordlist By True User Wordlist By False","Mode -->1:wordpress plugins finder,Mode -->2:wordpress themes finder,Mode -->3:joolma components finder ")
+        nemoscan().geoip("Adress IP Or Domain To Make geoIP")  
+        nemoscan().geoip("google.com") 
+        nemoscan().dnslookup("facebook.com")
+        nemoscan().whois("instagram.com")
+        nemoscan().reverse_ip_lookup("algerietelecom.dz")
+        nemoscan().fuzz("websiteHost","Default Wordlist By True User Wordlist By False","Mode -->1:wordpress plugins finder,Mode -->2:wordpress themes finder,Mode -->3:joolma components finder ")
         Get wordpress.com plugins: 
         nemoscan().fuzz(host="http://wordpress.com/",default=True,mode=1,wordlist="None") 
         Get wordpress.com themes:
