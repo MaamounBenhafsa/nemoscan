@@ -24,7 +24,6 @@ fuzz = results.fuzz
 mode = results.mode
 default = results.default
 wordlist = results.wordlist
-verbose = results.verbose
 if nmap:
     print(main.nmap(host))
 if geoip:
