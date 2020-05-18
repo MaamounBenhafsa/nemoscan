@@ -27,7 +27,7 @@ class nemoscan():
         Get wordpress.com themes:
         nemoscan().fuzz(host="http://wordpress.com/",default=True,mode=2,wordlist="None")
         Get joomla.com components:
-        nemoscan().fuzz(host="http://joomla.com/",default=True,mode=2,wordlist="None")
+        nemoscan().fuzz(host="http://joomla.com/",default=True,mode=3,wordlist="None")
         fuzz google.com with vuln_php.txt
         nemoscan().fuzz(host="http://google.com/",default=False,mode=None,wordlist="vuln_php.txt")
         """)
