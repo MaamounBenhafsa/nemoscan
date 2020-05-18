@@ -57,17 +57,4 @@ nemoscan().fuzz(host="http://joomla.com/",default=True,mode=3,wordlist="None")
     usage: main.py [-h] [--host HOST] [--nmap] [--geoip] [--dnslookup] [--whois] [--reverse-ip-lookup] [--fuzz] [--mode MODE]
                [--default_wordlist] [--wordlist WORDLIST]
 
-Nemo Scan
 
-optional arguments:
-  -h, --help           show this help message and exit
-  --host HOST          Host
-  --nmap               Nmap
-  --geoip              Geoip
-  --dnslookup          Dns Lookup
-  --whois              Whois
-  --reverse-ip-lookup  Reverse IP Lookup
-  --fuzz               fuzz
-  --mode MODE          mode1 --> wordpress.com plugins mode2 --> Get wordpress.com themes mode3 -->
-  --default_wordlist   Default Wordlist True By User Wordlist By False
-  --wordlist WORDLIST  Default Wordlist False define wordlist
